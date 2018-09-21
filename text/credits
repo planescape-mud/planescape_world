@@ -1,0 +1,121 @@
+&K  ______________________________________________________________________
+&K |                                                                      |
+&K |&w                         МПМ "&gГрани Мира&w"                             &K|
+&K |______________________________________________________________________|
+&K |&w                                                                      &K|
+&K |&c     Концепция:                                                       &K|
+&K |&w          Андрей Ермишин                                              &K|
+&K |&w          Дмитрий Коробцов                                            &K|
+&K |&w                                                                      &K|
+&K |&c     Развитие и администрирование игрового мира:                      &K|
+&K |&w          [Груумш]      Виталий Гринько                               &K|
+&K |&w                                                                      &K|
+&K |&c     Кодеры:                                                          &K|
+&K |&w          [Руфина]                                                    &K|
+&K |&w                                                                      &K|
+&K |______________________________________________________________________|
+&K |&w                                                                      &K|
+&K |&w     Предыдущие составы разработчиков:                                &K|
+&K |&w                                                                      &K|
+&K |&c     Руководитель проекта:                                            &K|
+&K |&w          [Мистра]      Розалия Замалеева                             &K|
+&K |&w                                                                      &K|
+&K |&c     Кодеры:                                                          &K|
+&K |&w          [Морадин]     Андрей Ермишин                                &K|
+&K |&w          [Гекстор]     Александр Ризов                               &K|
+&K |&w          [Лииф]        Павел Хмелинский                              &K|
+&K |&w          [Корэллион]   Олег Марескин                                 &K|
+&K |&w                                                                      &K|
+&K |&c     Создание редакторов зон и справки:                               &K|
+&K |&w          Александр Ризов                                             &K|
+&K |&w          Андрей Ермишин                                              &K|
+&K |&w                                                                      &K|
+&K |&c     Игровые зоны:                                                    &K|
+&K |&w          [Пелор]       Дмитрий Коробцов                              &K|
+&K |&w          [Груумш]      Алексей Какурников                            &K|
+&K |&w          [Кирн]        Александр Аликсенко                           &K|
+&K |&w          [Боккоб]                                                    &K|
+&K |&w          [Фарлангун]                                                 &K|
+&K |&w          [Dimak]                                                     &K|
+&K |&w          [Лоэрт]                                                     &K|
+&K |&w          [Блокв]                                                     &K|
+&K |&w          [Фолко]                                                     &K|
+&K |&w          [Greene]                                                    &K|
+&K |&w          [Льет]                                                      &K|
+&K |&w          [Сюркуф]                                                    &K|
+&K |&w                                                                      &K|
+&K |&c     Справка:                                                         &K|
+&K |&w          [Пелор]       Дмитрий Коробцов                              &K|
+&K |&w          [Морадин]     Андрей Ермишин                                &K|
+&K |&w          [Груумш]      Алексей Какурников                            &K|
+&K |&w          [Фарлангун]                                                 &K|
+&K |&w                                                                      &K|
+&K |&c     Социалы:                                                         &K|
+&K |&w          Дмитрий Коробцов                                            &K|
+&K |&w          Марина Сарест                                               &K|
+&K |&w          Алексей Пяев                                                &K|
+&K |&w                                                                      &K|
+&K |&c     Специальное спасибо:                                             &K|
+&K |&w          [Мерлин]      Сергей Митюшин                                &K|
+&K |&w          [Мамон]                                                     &K|
+&K |&w          Керд                                                        &K|
+&K |&w          Алексей Пяев                                                &K|
+&K |&w          Марина Сарест                                               &K|
+&K |&w                                                                      &K|
+&K |&c     Особая благодарность:                                            &K|
+&K |&w          Коллективу разработчиков Многопользовательского             &K|
+&K |&w          Мира "&gБылины&w", на основе которого в свое время              &K|
+&K |&w          создавался код МПМ "&gГрани Мира&w":                            &K|
+&K |&w                                                                      &K|
+&K |&w          Дмитрий Лица                                                &K|
+&K |&w          Андрей Сердюков                                             &K|
+&K |&w          Константин Будников                                         &K|
+&K |&w          Алексей Сидоров                                             &K|
+&K |&w          Александр Бурлаченко                                        &K|
+&K |&w                                                                      &K|
+&K |&w          Создателям МПМ "&gМир Трех Лун&w", которые любезно              &K|
+&K |&w          поделились кое-какими ценными идеями, частично              &K|
+&K |&w          использованными при разработке нового формата               &K|
+&K |&w          хранения зон, системы act() и концепции работы              &K|
+&K |&w          с предметами.                                               &K|
+&K |&w                                                                      &K|
+&K |&w          А также всем, кто так или иначе принимал (и в               &K|
+&K |&w          данный момент принимает) участие в создании                 &K|
+&K |&w          этого мира - всем бета-тестерам и игрокам.                  &K|
+&K |&w                                                                      &K|
+&K |______________________________________________________________________|
+&K |&w                                                                      &K|
+&K |&w  Связаться по общим вопросам можно по e-mail:  &K<&gmud@planescape.ru&K>   |
+&K |______________________________________________________________________|
+&K |&w                                                                      &K|
+&K |&w               C  I  R  C  L  E   M  U  D     3  .  0                 &K|
+&K |&w                                                                      &K|
+&K |&w          CircleMUD was developed from DikuMUD (Gamma 0.0) by         &K|
+&K |&w          Jeremy "Ras" Elson at Johns Hopkins University's            &K|
+&K |&w          Department of Computer Science.  All code unique to         &K|
+&K |&w          CircleMUD is protected under a copyright by the             &K|
+&K |&w          Trustees of the Johns Hopkins University.                   &K|
+&K |&w                                                                      &K|
+&K |&w          CircleMUD is freeware and can be downloaded                 &K|
+&K |&w          via anonymous FTP from ftp.circlemud.org or                 &K|
+&K |&w          ftp2.circlemud.org in pub/CircleMUD.  Its author            &K|
+&K |&w          can be contacted at jelson@circlemud.org.                   &K|
+&K |&w                                                                      &K|
+&K |&K   ----------------------------------------------------------------   &K|
+&K |&w                                                                      &K|
+&K |&w               Original game idea, concept, and design:               &K|
+&K |&w                                                                      &K|
+&K |&w     Katja Nyboe               [Superwoman] (katz@freja.diku.dk)      &K|
+&K |&w     Tom Madsen              [Stormbringer] (noop@freja.diku.dk)      &K|
+&K |&w     Hans Henrik Staerfeldt           [God] (bombman@freja.diku.dk)   &K|
+&K |&w     Michael Seifert                 [Papi] (seifert@freja.diku.dk)   &K|
+&K |&w     Sebastian Hammer               [Quinn] (quinn@freja.diku.dk)     &K|
+&K |&w                                                                      &K|
+&K |&K   ----------------------------------------------------------------   &K|
+&K |&w     Additional contributions from Michael Curran, Bill Wisner,       &K|
+&K |&w     Mads Haar, and Stephan Dahl.                                     &K|
+&K |&w                                                                      &K|
+&K |&w     Originally developed at: DIKU - The Department of Computer       &K|
+&K |&w     Science at the University of Copenhagen.                         &K|
+&K |______________________________________________________________________|
+
